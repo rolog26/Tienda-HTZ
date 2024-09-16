@@ -1,19 +1,19 @@
 import './NavBar.css'
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from "react-router-dom"
 
 function NavBar () {
     return (
         <nav>
             <div>
-                <img src="./src/assets/images/logo-HTZ-1.png" alt="Logo HTZ"/>
+                <Link to="/"><img src="./src/assets/images/logo-HTZ-1.png" alt="Logo HTZ"/></Link>
             </div>
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Fuentes">Cargadores</a></li>
-                <li><a href="#Cables">Cables</a></li>
-                <li><a href="#Gaming">Gaming</a></li>
-                <li><a href="#Auriculares">Auriculares</a></li>
-                <li><a href="#Soportes">Soportes</a></li>
+                <Link to="/inicio">Inicio</Link>
+                <Link to="/category/fuentes">Fuentes</Link>
+                <Link to="/category/cables">Cables</Link>
+                <Link to="/category/auriculares">Auriculares</Link>
+                <Link to="/category/soportes">Soportes</Link>
             </ul>
             <CartWidget />
         </nav>

@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "image": "/src/assets/images/manos-libres-S389.jpg",
+        "name": "Manos libres S389",
+        "category": "auriculares",
+        "description": "Auriculares manos libres de 120cm de largo, con conector auxiliar de 3.5mm."
+    },
+    {
+        "id": 2,
+        "image": "/src/assets/images/chill-out-BT300.jpg",
+        "name": "Chill Out BT300",
+        "category": "auriculares",
+        "description": "Auriculares bluetooth 5.0 con un alcance de 10 metros, con entrada auxiliar y compatible con pc."
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/images/tws-700.jpg",
+        "name": "TWS 700",
+        "category": "auriculares",
+        "description": "Auriculares bluetooth 5.0 con un alcance de 10 metros, con entrada CC 5V/1A."
+    },
+    {
+        "id": 4,
+        "image": "/src/assets/images/cable-de-datos-soft.jpg",
+        "name": "Cable de datos Soft",
+        "category": "cables",
+        "description": "Cable de datos USB a conector tipo C/Micro USB/Lightning. Amperaje de 2.0Amp y 1 metro de largo."
+    },
+    {
+        "id": 5,
+        "image": "/src/assets/images/cable-de-datos-iron-flex.jpg",
+        "name": "Cable de datos Iron Flex",
+        "category": "cables",
+        "description": "Cable de datos USB a conector tipo C/Micro USB/Lightning. Material reforzado, flexible y duradero, amperaje de 2.0A y 1.20 metros de largo."
+    },
+    {
+        "id": 6,
+        "image": "/src/assets/images/cable-de-datos-flat.jpg",
+        "name": "Cable de datos Flat",
+        "category": "cables",
+        "description": "Cable de datos USB a conector tipo C  o tipo C a conector tipo C/Lightning. Carga rápida, con un amperaje de 3.1A y 1.20 metros de largo."
+    },
+    {
+        "id": 7,
+        "image": "/src/assets/images/cable-reforzado-hdmi.jpg",
+        "name": "Cable Reforzado HDMI",
+        "category": "cables",
+        "description": "Cable reforzado con conector HDMI a HDMI. Largo de 1.5 o 3 metros."
+    },
+    {
+        "id": 8,
+        "image": "/src/assets/images/cargador-one-charge.jpg",
+        "name": "Cargador One Charge",
+        "category": "fuentes",
+        "description": "Cargador con un puerto USB con salida DC 5V/2.4A. Incluye cable con conector USB a tipo C/Micro USB/Lightning de 1 metro de largo."
+    },
+    {
+        "id": 9,
+        "image": "/src/assets/images/cargador-20W.jpg",
+        "name": "Cargador 20W",
+        "category": "fuentes",
+        "description": "Cargador con salida tipo C, carga rápida de 20W PD. No incluye cable."
+    },
+    {
+        "id": 10,
+        "image": "/src/assets/images/cargador-USB+C.jpg",
+        "name": "Cargador USB+C",
+        "category": "fuentes",
+        "description": "Cargador con salida tipo C y USB, carga rápida de 20W PD/18W QC. No incluye cable."
+    },
+    {
+        "id": 11,
+        "image": "/src/assets/images/cargador-para-auto.jpg",
+        "name": "Cargador para auto",
+        "category": "fuentes",
+        "description": "Cargador para auto con dos salidas USB, carga rápida PD 3.0 y amperaje de 3.1A. Incluye cable con conector USB a tipo C/Micro USB/Lightning."
+    },
+    {
+        "id": 12,
+        "image": "/src/assets/images/soporte-para-celular.jpg",
+        "name": "Soporte para Celular",
+        "category": "soportes",
+        "description": "Soporte para celular. Plegable, cómodo, seguro y espejado."
+    },
+    {
+        "id": 13,
+        "image": "/src/assets/images/soporte-para-notebook.jpg",
+        "name": "Soporte para Notebook",
+        "category": "soportes",
+        "description": "Soporte universal para notebook. 12 posiciones ajustables, soporta hasta 3kg."
+    },
+    {
+        "id": 14,
+        "image": "/src/assets/images/soporte-para-auto.jpg",
+        "name": "Soporte para auto",
+        "category": "soportes",
+        "description": "Soporte rígido para auto. Súper adherente, hecho con goma de máxima resistencia. Tiene una rotación de 360°."
+    },
+    {
+        "id": 15,
+        "image": "/src/assets/images/soporte-con-iman-para-auto.jpg",
+        "name": "Soporte con imán para auto",
+        "category": "soportes",
+        "description": "Soporte con imán para auto. Súper adherente, hecho con goma de máxima resistencia. Tiene una rotación de 360°."
+    }
+]
