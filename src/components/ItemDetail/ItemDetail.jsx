@@ -7,10 +7,11 @@ function ItemDetail ( {detail} ) {
             <img className="detail-img" src={detail?.image} alt={detail?.name} />
             <div className="detail-info">
                 <p className="detail-name">{detail?.name}</p>
+                <h3>${detail?.price}</h3>
                 <p>{detail?.description}</p>
             </div>
             <div>
-                <ItemCount />                
+                <ItemCount item={detail}/>                
             </div>
         </div>
     )

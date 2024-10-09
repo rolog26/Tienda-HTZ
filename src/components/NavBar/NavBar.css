@@ -25,3 +25,11 @@ ul a {
     margin: 10px;
     color: white;
 }
+
+.active-link {
+    color: darkgreen;
+}
+
+ul a:hover {
+    color: green;
+}

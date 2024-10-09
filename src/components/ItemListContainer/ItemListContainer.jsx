@@ -1,30 +1,27 @@
 import { useState, useEffect } from 'react'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
+import { getProducts } from '../../firebase/db'
+import Loading from '../Loading/Loading'
 
 function ItemListContainer () {
     const [items, setItems] = useState([])
     const { categoryId } = useParams()
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
         setTimeout(() => {
-            fetch("/productos.json")
-            .then(res => res.json())
-            .then(res => {
-                if (!categoryId){
-                        setItems(res)
-                } else {
-                        const productsByCategory = res.filter(item => item.category === categoryId)
-                        setItems(productsByCategory)
-                }
-            })
-        }, 1000)
+            categoryId ? getProducts(setItems, categoryId) : getProducts(setItems)
+            setIsLoading(false)
+        }, 1500)
+        setIsLoading(true)
     }, [categoryId])
 
+    
     return (
         <div className='item-list'>
-            <ItemList items={items}/>
-        </div>
+            {isLoading ? <Loading /> : <ItemList items={items}/>}
+            </div>
     )
 }
 
